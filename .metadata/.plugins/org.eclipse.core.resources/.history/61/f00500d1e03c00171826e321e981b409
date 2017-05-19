@@ -11,15 +11,5 @@ public class algoritmos {
 			}
 		return maxValueInArray;
 	}
-	
-	public int minInArray(int[] array){
-		int minValueInArray = array[0];
-			for(int control=1; control<array.length; control++){
-				if(array[control]<minValueInArray){
-					minValueInArray = array[control];
-				}
-			}
-		return minValueInArray;
-	}
 
 }
